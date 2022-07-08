@@ -158,3 +158,59 @@ left:40%;
 .rightalign p{
   font-size:30px;
 margin:20px 0;}
+
+.sameimage{
+font-weight:bolder;
+}
+
+
+
+
+.sameimage{
+border-radius:5px;
+width:250px;
+position:relative;
+width:fit-content;
+background:red;
+}
+
+
+.sameimage i{
+  color:white;
+  background:aqua;
+  width:50px;
+  height:50px;
+  position:absolute;
+  right: 5px;
+  bottom:30px;
+}
+
+.movefastercontainer{
+  float:left;
+width:50%;
+}
+
+
+
+.whatisachannel{
+  float:left;
+  margin-right:3px;
+}
+
+.createachannel{
+  
+  float:right;}
+
+
+.firstvideo{
+  float:right;
+  width:50;
+}
+.secondvideo{
+  float:left;
+  width:50%;
+}
+.focus{
+  float:right;
+  width:50%;
+}
