@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+nav {
+  padding: 15px 0 40px 0;
+  }
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21.7px;
+  margin: 0 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+nav ul li:hover {
+  border-bottom: 1px solid #000;
+  
+}
+
+header {
+  background: #f6efe8;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.trymeforfree {
+  background: purple;
+  color: whitesmoke;
+  border: none;
+}
+.talktosales {
+  border: 1px solid purple;
+  background: transparent;
+  color: purple;
+}
+.navright {
+  float: right;
+}
+.navleft {
+  float: left;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.container-a {
+  float: left;
+  width: 35%;
+}
+
+.container-b {
+  float: right;
+}
+.para {
+  font-size: 1.5rem;
+  padding: 2rem 0 5rem 0;
+  font-weight: bold;
+}
+.forfreebutton {
+  background: purple;
+  color: whitesmoke;
+  padding: 17px;
+  width: 40%;
+  font-size: 0.8rem;
+}
+
+.glogo {
+  background: white;
+  float: left;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+.signup {
+  background: #4285f4;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 55%;
+  padding: 2.5px;
+  border-radius: 5px;
+  float: right;
+}
+.signupwithgoogle {
+  padding-top: 15px;
+}
+
+.clearfix {
+  clear: both;
+}
+.logos {
+  margin-top: 50px;
+}
+.logoimages li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 50px;
+}
+.leftalign {
+  float: left;
+  width:fit-content;
+  position:relative;
+  
+  cursor:pointer;
+} 
+
+.leftalign .play{
+color:white;
+background:aqua;
+position:absolute;
+width: 75px;
+height:75px;
+border-radius: 5px;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+
+}
+
+.leftalign .play i{
+  display:block;
+  position: relative;
+top:40%;
+left:40%;
+
+
+}
+
+.leftalign:hover>.play{
+  background:#1264A3;
+
+}
+
+
+.rightalign 
+{
+  margin-top:20px;
+  float: right;
+  width:50%;
+}
+.rightalign h2{
+  font-size:30px;}
+.rightalign p{
+  font-size:30px;
+margin:20px 0;}
