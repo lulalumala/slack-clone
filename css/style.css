@@ -23,6 +23,7 @@ nav ul li:hover {
 
 header {
   background: #f6efe8;
+  margin-bottom: 90px;
 }
 .container {
   width: 80%;
@@ -76,7 +77,7 @@ h1 {
   background: purple;
   color: whitesmoke;
   padding: 17px;
-  width: 40%;
+  width: 30%;
   font-size: 0.8rem;
 }
 
@@ -90,10 +91,12 @@ h1 {
   background: #4285f4;
   color: #ffffff;
   font-weight: bolder;
-  width: 55%;
+  width: 60%;
+  font-size:5px;
   padding: 2.5px;
   border-radius: 5px;
   float: right;
+  vertical-align: middle;
 }
 .signupwithgoogle {
   padding-top: 15px;
@@ -117,6 +120,7 @@ h1 {
   position:relative;
   
   cursor:pointer;
+  margin-bottom: -30px;
 } 
 
 .leftalign .play{
@@ -168,21 +172,34 @@ font-weight:bolder;
 
 .sameimage{
 border-radius:5px;
-width:250px;
 position:relative;
 width:fit-content;
 background:red;
 }
 
+.tutorial {
+  position: relative;
+}
 
-.sameimage i{
+.tutorial img {
+  width: 100%;
+}
+
+.playtwo {
   color:white;
   background:aqua;
   width:50px;
   height:50px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.playtwo i{
+display: block;
   position:absolute;
-  right: 5px;
-  bottom:30px;
+  right: 40%;
+  top:40%;
 }
 
 .movefastercontainer{
@@ -199,7 +216,8 @@ width:50%;
 
 .createachannel{
   
-  float:right;}
+  float:right;
+}
 
 
 .firstvideo{
@@ -210,7 +228,82 @@ width:50%;
   float:left;
   width:50%;
 }
+.videoandfocus{
+  background:white;}
 .focus{
   float:right;
   width:50%;
 }
+* h2{
+    font-size:30px;
+    }
+* p{
+  font-size:20px;
+  margin:20px 0;
+}
+
+.section-3{
+  display:inline-block;
+background:white;}
+.left{
+  width:49%;
+  float:left;}
+.right{
+  float:right;
+  width:49%;
+}
+
+.workwith img{
+  width: 100%;
+}
+
+.workwith:not(:last-child){
+  margin-right: 2%;
+}
+
+.fourthsection{
+background:#F6EFE8;
+}
+.numbers-1{float:left;
+width:30%;}
+
+
+
+.numberone{
+  display: inline-block;
+  background: #4A154B;
+color:white;
+padding:10px;
+font-size: 20px;
+margin-top: 20px;
+width:30px;}
+
+
+.getstarted h3{
+  margin:20px 0;}
+
+
+
+ .onfourimages li{list-style: none;
+
+}
+
+
+
+.fourimages{background:#F6EFE8;
+}
+
+.thoseimages{background:white;
+width:22%;
+padding:5px;
+float:left;
+box-shadow:2px 2px 5px grey;
+}
+
+
+
+.thoseimages
+{
+
+margin-left:3%;}
+
